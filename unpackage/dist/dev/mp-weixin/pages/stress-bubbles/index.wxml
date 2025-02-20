@@ -1,0 +1,1 @@
+<view class="container"><block wx:if="{{r0}}"><canvas canvas-id="gameCanvas" id="gameCanvas" type="2d" bindtouchstart="{{a}}" style="width:100%;height:90vh;position:absolute;z-index:0"/></block><view class="control-panel"><text>时间: {{b}}s</text><text>得分: {{c}}</text><button bindtap="{{e}}" disabled="{{f}}">{{d}}</button></view></view>

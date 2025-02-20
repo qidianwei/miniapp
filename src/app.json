@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/stress-bubbles/index",
+    "pages/index/index",
+    "pages/personality-lab/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "万能工具箱",
+    "navigationBarBackgroundColor": "#F8F9FA"
+  }
+} 

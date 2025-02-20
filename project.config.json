@@ -1,0 +1,45 @@
+{
+  "miniprogramRoot": "",
+  "description": "项目配置文件",
+  "setting": {
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "package.json",
+        "miniprogramNpmDistDir": "./unpackage/dist/dev/mp-weixin/"
+      }
+    ],
+    "urlCheck": false,
+    "nodeModules": true,
+    "wechatDevtoolsPath": "/Applications/wechatwebdevtools.app/Contents/MacOS/cli",
+    "checkSiteMap": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useCompilerPlugins": [],
+    "condition": true,
+    "es6": true,
+    "enhance": true,
+    "swc": true,
+    "compileWorklet": true,
+    "postcss": false,
+    "minified": true,
+    "uglifyFileName": false,
+    "ignoreUploadUnusedFiles": true
+  },
+  "appid": "wx8068a2b83fff09a4",
+  "compileType": "miniprogram",
+  "libVersion": "3.7.8",
+  "srcMiniprogramRoot": "unpackage/dist/dev/mp-weixin/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

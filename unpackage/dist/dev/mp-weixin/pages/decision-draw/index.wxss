@@ -1,0 +1,283 @@
+
+/* 原index.vue中的样式代码 */
+.container.data-v-e717555a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  background: #ffffff;
+  padding-top: 44px;
+}
+.random-box.data-v-e717555a {
+  width: 280px;
+  height: 64px;
+  border-radius: 18px;
+  background: #ffffff;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.random-text.data-v-e717555a {
+  font: 600 20px/-0.41px "SF Pro Display";
+  color: #1d1d1f;
+  transition: all 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.random-text.data-v-e717555a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #007aff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin-e717555a 0.8s linear infinite;
+  opacity: 0;
+}
+@keyframes spin-e717555a {
+to { transform: translate(-50%, -50%) rotate(360deg);
+}
+}
+.isSpinning .random-text.data-v-e717555a::after {
+  opacity: 1;
+}
+.isSpinning .random-text.data-v-e717555a {
+  animation: textScale-e717555a 0.8s ease-in-out infinite;
+}
+@keyframes textScale-e717555a {
+0%, 100% { transform: scale(1);
+}
+50% { transform: scale(1.01);
+}
+}
+.random-box.data-v-e717555a:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.config-panel.data-v-e717555a {
+  margin-top: 24px;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+.option-list.data-v-e717555a {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.option-item.data-v-e717555a {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  position: relative;
+}
+.option-input.data-v-e717555a {
+  border: 0.5px solid #d1d1d6;
+  border-radius: 10px;
+  height: 44px;
+  font-size: 17px;
+  padding: 0 16px;
+  padding-right: 80px;
+  position: relative;
+}
+.option-input.data-v-e717555a:focus {
+  outline: none;
+  border-color: #007aff;
+  background: rgba(0, 122, 255, 0.02);
+}
+.option-input.data-v-e717555a::after {
+  content: attr(data-counter);
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font: 500 13px/1 "SF Pro Text";
+  color: #86868b;
+  pointer-events: none;
+  transition: color 0.2s ease;
+}
+.option-input.warning.data-v-e717555a::after {
+  color: #ff3b30;
+}
+.delete-btn.data-v-e717555a {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background: #ff3b30;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-1px);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+.action-buttons.data-v-e717555a {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.add-btn.data-v-e717555a, .remove-btn.data-v-e717555a {
+  flex: 1;
+  padding: 8px 15px;
+  border-radius: 12px;
+  height: 44px;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+.add-btn.data-v-e717555a::after, .remove-btn.data-v-e717555a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease;
+}
+.add-btn.data-v-e717555a:active::after, .remove-btn.data-v-e717555a:active::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+.add-btn.data-v-e717555a {
+  background: #34C759;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* 10-14个选项 */
+.add-btn.warning.data-v-e717555a {
+  background: #ff9500; /* 橙色 */
+}
+
+/* 15-19个选项 */
+.add-btn.caution.data-v-e717555a {
+  background: #ffcc00; /* 黄色 */
+  animation: pulse-e717555a 1.5s infinite;
+}
+
+/* 达到20个 */
+.add-btn.disabled.data-v-e717555a,
+.remove-btn.disabled.data-v-e717555a {
+  background: #8e8e93 !important; /* 系统灰色 */
+  cursor: not-allowed;
+}
+.tip-text.data-v-e717555a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 4px;
+}
+@keyframes pulse-e717555a {
+0%, 100% { transform: scale(1);
+}
+50% { transform: scale(1.05);
+}
+}
+.remove-btn.data-v-e717555a {
+  background: #FF3B30;
+  color: white;
+}
+.remove-btn.data-v-e717555a:disabled {
+  background: #ff7875;
+  opacity: 0.6;
+}
+.start-button.data-v-e717555a {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #007AFF;
+  color: white;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.41px;
+  height: 50px;
+  width: 280px;
+  transition: all 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start-button.data-v-e717555a:active {
+  transform: scale(0.96);
+  background-color: #0063cc;
+}
+.result-content.data-v-e717555a {
+  padding: 24px 24px 32px;
+  width: 280px;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  position: relative;
+  box-sizing: border-box;
+}
+.result-body.data-v-e717555a {
+  padding: 12px 0;
+  text-align: center;
+}
+.result-label.data-v-e717555a {
+  display: block;
+  font: 400 15px/21px "SF Pro Text";
+  color: #86868b;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+.result-text.data-v-e717555a {
+  font: 600 17px/22px "SF Pro Display";
+  padding: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #1c1c1e;
+  margin: 0 24px;
+}
+.add-btn.data-v-e717555a:active, .remove-btn.data-v-e717555a:active {
+  transform: scale(0.98);
+}
+@media (max-width: 375px) {
+.result-content.data-v-e717555a {
+    width: calc(100% - 32px);
+    max-width: 300px;
+    margin: 0 auto;
+}
+.result-text.data-v-e717555a {
+    font-size: 18px;
+}
+}
+.char-counter.data-v-e717555a {
+  position: absolute;
+  right: 40px;
+  font-size: 12px;
+  color: #86868b;
+}
+.input-counter.data-v-e717555a {
+  position: absolute;
+  right: 50px;
+  font-size: 13px;
+  color: #86868b;
+  pointer-events: none;
+  transition: color 0.2s ease;
+}
+.input-counter.warning.data-v-e717555a {
+  color: #ff3b30;
+}

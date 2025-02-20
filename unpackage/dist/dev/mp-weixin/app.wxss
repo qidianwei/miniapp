@@ -1,0 +1,35 @@
+
+	/*每个页面公共css */
+	/* 全局样式 */
+body.popup-open {
+		overflow: hidden;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+}
+
+	/* 添加全局页面样式 */
+page {
+		height: 100%;
+		overflow: hidden !important;
+}
+
+	/* 确保容器样式 */
+.container {
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 0 10px;
+		min-height: 100vh;
+		overflow-x: hidden;
+}
+
+	/* 隐藏所有滚动条 (仅保留Webkit方案) */
+::-webkit-scrollbar {
+		display: none;
+		width: 0;
+		height: 0;
+		background: transparent;
+}
+page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

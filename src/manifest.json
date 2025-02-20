@@ -1,0 +1,27 @@
+{
+  "name": "万能工具箱",
+  "appid": "__UNI__YOUR_APPID",
+  "description": "多功能实用工具集合",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wx1234567890abcdef",
+    "pages": {
+      "pages/stress-bubbles/index": {}
+    },
+    "setting": {
+      "urlCheck": false,
+      "webgl": true,
+      "webgl2": true
+    },
+    "usingComponents": {
+      "matter-js": "/static/libs/matter.js",
+      "canvas": "components/canvas/canvas"
+    },
+    "requiredBackgroundModes": ["audio"]
+  },
+  "h5": {
+    "title": "万能工具箱"
+  }
+}

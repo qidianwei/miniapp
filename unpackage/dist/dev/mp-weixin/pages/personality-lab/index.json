@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "人格实验室",
+  "navigationBarBackgroundColor": "#6B8DD6",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "disableScroll": false,
+  "usingComponents": {}
+}

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/decision-draw/index",
+    "pages/dice/index",
+    "pages/calculator/index",
+    "pages/converter/index",
+    "pages/adventure/index",
+    "pages/truth/index",
+    "pages/compass/index",
+    "pages/timer/index",
+    "pages/drinking-dice/index",
+    "pages/personality-lab/index",
+    "pages/stress-bubbles/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "万能工具箱",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "requiredBackgroundModes": [
+    "webgl",
+    "audio"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于社交匹配"
+    },
+    "scope.writePhotosAlbum": {
+      "desc": "需要写入权限以保存场景截图"
+    }
+  },
+  "plugins": {},
+  "usingComponents": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "relax-miniapp",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "uni -p h5",
+    "build": "uni build",
+    "serve": "uni serve",
+    "lint": "eslint . --ext .vue,.js"
+  },
+  "dependencies": {
+    "@dcloudio/uni-components": "^3.0.0-alpha-3000020221214001",
+    "@dcloudio/uni-h5-vue": "^3.0.0-alpha-3000020221214001",
+    "@dcloudio/uni-mp-weixin": "^3.0.0-alpha-3000020221214001",
+    "@dcloudio/uni-stacktracey": "^3.0.0-alpha-3000020221214001",
+    "matter-js": "^0.19.0",
+    "vue": "^3.2.45",
+    "rollup-plugin-copy": "^3.5.0",
+    "@dcloudio/uni-cli-shared": "^3.0.0-alpha-3000020221214001",
+    "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-4050220250208001",
+    "vite": "^5.2.8"
+  },
+  "license": "ISC",
+  "description": "解压类小程序集合",
+  "resolutions": {
+    "@dcloudio/vite-plugin-uni": "3.0.0-alpha-4050220250208001"
+  }
+}

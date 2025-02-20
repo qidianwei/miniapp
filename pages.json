@@ -1,0 +1,123 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "万能工具箱"
+			}
+		},
+		{
+			"path": "pages/decision-draw/index",
+			"style": {
+				"navigationBarTitleText": "决策抽签",
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/dice/index",
+			"style": {
+				"navigationBarTitleText": "随机骰子"
+			}
+		},
+		{
+			"path": "pages/calculator/index",
+			"style": {
+				"navigationBarTitleText": "计算器"
+			}
+		},
+		{
+			"path": "pages/converter/index",
+			"style": {
+				"navigationBarTitleText": "单位换算"
+			}
+		},
+		{
+			"path": "pages/adventure/index",
+			"style": {
+				"navigationBarTitleText": "随机大冒险"
+			}
+		},
+		{
+			"path": "pages/truth/index",
+			"style": {
+				"navigationBarTitleText": "随机真心话",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#f5f5f7",
+						"titleColor": "#1d1d1f"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/compass/index",
+			"style": {
+				"navigationBarTitleText": "指南针",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#f5f5f7",
+						"titleColor": "#1d1d1f"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/timer/index",
+			"style": {
+				"navigationBarTitleText": "计时器",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#f5f5f7",
+						"titleColor": "#1d1d1f"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/drinking-dice/index",
+			"style": {
+				"navigationBarTitleText": "喝酒骰子",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#f5f5f7",
+						"titleColor": "#1d1d1f"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/personality-lab/index",
+			"style": {
+				"navigationBarTitleText": "人格实验室",
+				"navigationBarBackgroundColor": "#6B8DD6",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"disableScroll": false,
+				"app-plus": {
+					"bounce": "vertical",
+					"scrollIndicator": "all"
+				}
+			}
+		},
+		{
+			"path": "pages/stress-bubbles/index",
+			"style": {
+				"navigationBarTitleText": "压力泡泡工厂",
+				"navigationBarBackgroundColor": "#B1BDF7",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "万能工具箱",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"usingComponents": {
+		"dice-3d": "/pages/dice/index"
+	},
+	"styleIsolation": "shared"
+}

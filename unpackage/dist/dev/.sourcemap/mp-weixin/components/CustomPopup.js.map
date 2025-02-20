@@ -1,0 +1,1 @@
+{"version":3,"file":"CustomPopup.js","sources":["/Users/xq/Documents/HBuilderProjects/miniapp/components/CustomPopup.vue?type=component"],"sourcesContent":["import Component from '/Users/xq/Documents/HBuilderProjects/miniapp/components/CustomPopup.vue'\nwx.createComponent(Component)"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;AACA,GAAG,gBAAgB,SAAS;"}

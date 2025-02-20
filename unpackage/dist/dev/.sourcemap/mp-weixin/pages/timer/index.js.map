@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["pages/timer/index.vue?type=page"],"sourcesContent":["import MiniProgramPage from '/Users/xq/Documents/HBuilderProjects/miniapp/pages/timer/index.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

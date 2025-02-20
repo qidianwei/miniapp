@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "压力泡泡工厂",
+  "navigationBarBackgroundColor": "#B1BDF7",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

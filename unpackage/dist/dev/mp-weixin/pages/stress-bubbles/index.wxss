@@ -1,0 +1,36 @@
+
+.container {
+  position: relative;
+  height: 100vh;
+  padding: 0;
+}
+#gameCanvas {
+  position: absolute;
+  z-index: 0;
+}
+.control-panel {
+  position: fixed;
+  bottom: 0rpx;
+  left: 60%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 4px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4rpx 20rpx rgba(0,0,0,0.1);
+  z-index: 1;
+}
+button {
+  background: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 28rpx;
+}
+text {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 500;
+}

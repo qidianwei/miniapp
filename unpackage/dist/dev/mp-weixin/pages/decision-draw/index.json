@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "决策抽签",
+  "usingComponents": {
+    "custom-popup": "../../components/CustomPopup"
+  }
+}

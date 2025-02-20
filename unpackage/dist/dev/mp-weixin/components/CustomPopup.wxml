@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="popup-mask data-v-245eb4bb"><view class="popup-container data-v-245eb4bb"><view class="popup-content data-v-245eb4bb"><slot></slot></view><button class="close-button data-v-245eb4bb" bindtap="{{b}}">关闭</button></view></view>

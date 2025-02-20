@@ -1,0 +1,116 @@
+
+.container.data-v-02fd92de {
+  padding: 25px;
+  background-color: #f5f5f7;
+  min-height: 100vh;
+}
+.card.data-v-02fd92de {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.card-shake.data-v-02fd92de {
+  animation: shake-02fd92de 0.4s;
+}
+@keyframes shake-02fd92de {
+0% { transform: translateX(0)
+}
+25% { transform: translateX(-8px)
+}
+50% { transform: translateX(8px)
+}
+75% { transform: translateX(-4px)
+}
+100% { transform: translateX(0)
+}
+}
+.question-text.data-v-02fd92de {
+  font-size: 20px;
+  color: #1d1d1f;
+  text-align: center;
+  line-height: 1.5;
+}
+.button-group.data-v-02fd92de {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 30px 0;
+}
+.button.data-v-02fd92de {
+  border-radius: 25px;
+  padding: 15px 30px;
+  min-width: 120px;
+  text-align: center;
+  transition: transform 0.1s;
+}
+.button.data-v-02fd92de:active {
+  transform: scale(0.95);
+}
+.skip.data-v-02fd92de {
+  background: #34c759;
+}
+.truth.data-v-02fd92de {
+  background: #007aff;
+}
+.button-text.data-v-02fd92de {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.modal-content.data-v-02fd92de {
+  background: #fff;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 20px;
+  padding: 25px;
+}
+.answer-title.data-v-02fd92de {
+  font-size: 18px;
+  color: #1d1d1f;
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.answer-scroll.data-v-02fd92de {
+  max-height: 60vh;
+}
+.answer-text.data-v-02fd92de {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+.history.data-v-02fd92de {
+  background: #fff;
+  border-radius: 18px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.history-title.data-v-02fd92de {
+  display: block;
+  color: #86868b;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.history-item.data-v-02fd92de {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+.history-index.data-v-02fd92de {
+  color: #007aff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.history-text.data-v-02fd92de {
+  color: #1d1d1f;
+  font-size: 15px;
+  flex: 1;
+}

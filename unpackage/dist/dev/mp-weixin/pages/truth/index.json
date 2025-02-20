@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "随机真心话",
+  "usingComponents": {
+    "custom-popup": "../../components/CustomPopup"
+  }
+}
